@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>@keyframes lotIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#0c1611}
+  a{color:inherit;text-decoration:none}
+  a:hover{opacity:.7}
+</style>
+</helmet>
+
+<template id="__bundler_thumbnail" data-bg-color="#0c1611">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#0c1611"/>
+    <text x="600" y="470" font-family="Georgia, 'Cormorant Garamond', serif" font-size="360" font-weight="500" fill="#c0a068" text-anchor="middle">14</text>
+    <text x="600" y="560" font-family="Georgia, serif" font-style="italic" font-size="52" fill="#efe9db" text-anchor="middle">Wildynamics</text>
+  </svg>
+</template>
+<div style="font-family:'EB Garamond',Georgia,serif;color:#e9e3d4;background:#0c1611;width:100%;overflow-x:hidden;">
+
+  <!-- ===== HERO ===== -->
+  <section style="position:relative;min-height:940px;overflow:hidden;background:#0c1611;">
+    <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+      <source src="./assets/hero-forest.webm" type="video/webm" />
+    </video>
+    <div style="position:absolute;inset:0;background:linear-gradient(95deg,rgba(8,13,9,.9) 0%,rgba(8,13,9,.55) 35%,rgba(8,13,9,.1) 62%,rgba(8,13,9,0) 80%);pointer-events:none;"></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,13,9,.55) 0%,rgba(8,13,9,0) 22%,rgba(8,13,9,0) 78%,rgba(8,13,9,.35) 100%);pointer-events:none;"></div>
+    <div style="position:relative;padding:52px 64px 64px;min-height:940px;display:flex;flex-direction:column;pointer-events:none;">
+      <img src="./assets/longboard-logo.png" alt="Longboard Coffee Estate" style="height:88px;width:auto;object-fit:contain;object-position:left center;" />
+
+      <div style="margin-top:auto;max-width:580px;">
+        <h1 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:92px;line-height:.98;letter-spacing:-.01em;color:#f2ecdf;">Wildynamics</h1>
+        <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:400;font-size:44px;line-height:1.05;margin-top:14px;color:#efe9db;">Expressing<br>the Wild</p>
+        <p style="font-size:16px;line-height:1.5;margin-top:32px;max-width:400px;color:#d7d2c4;">The second vintage from the Misty Mountain estate in Boquete, Panama. Fourteen lots, wild-fermented and low-intervention.</p>
+        <p style="font-size:16px;line-height:1.5;margin-top:20px;max-width:400px;color:#d7d2c4;">Auction: Thursday 8 October 2026. Sample sets are released once, before any of it is sold.</p>
+        <a href="#waitlist" style="pointer-events:auto;display:inline-flex;align-items:center;gap:12px;margin-top:34px;font-size:11px;letter-spacing:.22em;color:#c0a068;border-bottom:1px solid rgba(192,160,104,.5);padding-bottom:8px;">JOIN THE SAMPLE SET WAITLIST <span>→</span></a>
+      </div>
+      <div style="margin-top:44px;font-size:26px;color:#cfc9bb;">↓</div>
+    </div>
+  </section>
+
+  <!-- ===== A PHILOSOPHY OF RESTRAINT ===== -->
+  <section style="background:#efe9db;color:#2b2a22;padding:110px 64px;">
+    <div style="display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr;gap:48px;max-width:1320px;margin:0 auto;">
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:46px;line-height:1.05;">A philosophy<br>of <em style="font-style:italic;font-weight:400;">restraint.</em></h2>
+      <p style="font-size:15px;line-height:1.65;color:#4c483d;padding-top:6px;">There is a moment, just after the cherry is picked, when the coffee stops belonging entirely to us. It passes into the care of something older and less visible — communities of wild yeasts and bacteria that have lived in our soil, our air, and our forest canopy since long before the first Geisha tree took root at Misty Mountain.</p>
+      <p style="font-size:15px;line-height:1.65;color:#4c483d;padding-top:6px;">They live in the fruit itself. They live in the hands that harvest it. They live, quietly, in the walls and tanks of our own mill, having settled there season after season until they became, in their own way, residents of the estate. We do not introduce them. We do not need to. They are already home.</p>
+      <p style="font-size:15px;line-height:1.65;color:#4c483d;padding-top:6px;">This is the heart of what we call Wildynamics — our belief that the finest expression of coffee is not engineered, but revealed.</p>
+    </div>
+  </section>
+
+  <!-- ===== THE UNSEEN MADE VISIBLE ===== -->
+  <section style="position:relative;min-height:460px;overflow:hidden;background:#0c1611;">
+    <div style="position:absolute;inset:0;">
+      <image-slot id="unseen-fireflies" shape="rect" fit="cover" placeholder="Forest · light caught in the canopy"></image-slot>
+    </div>
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,13,9,.85) 0%,rgba(8,13,9,.5) 42%,rgba(8,13,9,.15) 78%);pointer-events:none;"></div>
+    <div style="position:relative;padding:78px 64px;min-height:460px;display:flex;flex-direction:column;justify-content:center;">
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:52px;line-height:1.02;color:#f2ecdf;">The unseen<br>made visible.</h2>
+      <div style="margin-top:auto;max-width:430px;padding-top:56px;">
+        <p style="font-size:15px;line-height:1.6;color:#d7d2c4;">Yeasts move first, feeding on the sugars of the mucilage. Lactic bacteria follow as the environment turns to their liking, then acetic bacteria at the margins, where air reaches the fruit. Each population makes the conditions for the next, then recedes.</p>
+        <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:19px;line-height:1.4;margin-top:16px;color:#efe9db;">The cup is the record of that succession.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== THE SECOND VINTAGE ===== -->
+  <section style="background:#101d16;color:#e9e3d4;padding:80px 64px 96px;">
+    <div style="display:grid;grid-template-columns:280px 1fr;gap:56px;align-items:start;">
+      <div>
+        <div style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:150px;line-height:.8;color:#c0a068;">14</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px;margin-top:18px;color:#efe9db;">The Second Vintage</p>
+        <p style="font-size:15.5px;line-height:1.55;margin-top:24px;color:#c3c0b2;">Seven washed. Seven natural. Two peaberries, the first from this estate. Each named for what it gestures at rather than what it contains.</p>
+        <p style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin-top:26px;color:#9fa393;">Select a lot for its cupping notes<br>and attributed colour.</p>
+      </div>
+
+      <div id="profiles">
+        <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:12px;" id="lot-grid">
+          <!-- Row 1 · Washed -->
+          <div data-lot="LAW1" onClick="{{ cLAW1 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAW1</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Wild Garden</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Washed</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#F4C4A0,#FBF3E8);"></div></div>
+          <div data-lot="LAW2" onClick="{{ cLAW2 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAW2</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Vertige</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Washed</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#E4C64C,#8FA84E);"></div></div>
+          <div data-lot="LAW3" onClick="{{ cLAW3 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAW3</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Cerise</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Washed</span><div style="height:4px;margin-top:10px;border-radius:2px;background:#E39AB0;"></div></div>
+          <div data-lot="LAW4" onClick="{{ cLAW4 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAW4</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Mystic</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Washed</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#FBF3E0,#EBC65A);"></div></div>
+          <div data-lot="LAW5" onClick="{{ cLAW5 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAW5</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Symphony</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Washed</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#E7A2B0,#E9C866);"></div></div>
+          <div data-lot="LAW6" onClick="{{ cLAW6 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAW6</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Qw</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Washed</span><div style="height:4px;margin-top:10px;border-radius:2px;background:#B23A76;"></div></div>
+          <div data-lot="LAW7" onClick="{{ cLAW7 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAW7</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Alchimie</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Washed · Peaberry</span><div style="height:4px;margin-top:10px;border-radius:2px;background:#A99BCB;"></div></div>
+          <!-- Row 2 · Natural -->
+          <div data-lot="LAN1" onClick="{{ cLAN1 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAN1</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Clair Obscur</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Natural</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#C23B2E,#E8863A 55%,#E9C15A);"></div></div>
+          <div data-lot="LAN2" onClick="{{ cLAN2 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAN2</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Ruby Red</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Natural</span><div style="height:4px;margin-top:10px;border-radius:2px;background:#A62A4D;"></div></div>
+          <div data-lot="LAN3" onClick="{{ cLAN3 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAN3</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Zenith</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Natural</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#4B2247,#8E2436);"></div></div>
+          <div data-lot="LAN4" onClick="{{ cLAN4 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAN4</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Halo</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Natural</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#E8C24E,#E08636);"></div></div>
+          <div data-lot="LAN5" onClick="{{ cLAN5 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAN5</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Tropical Hibiscus</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Natural</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#C43A6D,#E88A3C);"></div></div>
+          <div data-lot="LAN6" onClick="{{ cLAN6 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAN6</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Qn</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Natural</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#B5762F,#5A3550);"></div></div>
+          <div data-lot="LAN7" onClick="{{ cLAN7 }}" style="aspect-ratio:1/1.18;border:1px solid rgba(192,160,104,.28);padding:14px;display:flex;flex-direction:column;background:linear-gradient(160deg,rgba(255,255,255,.02),rgba(0,0,0,.15));cursor:pointer;transition:border-color .25s;"><span style="font-size:11px;letter-spacing:.12em;color:#b89660;">LAN7</span><span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.05;margin-top:auto;color:#efe9db;">Reverie</span><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;margin-top:6px;color:#9fa393;">Natural · Peaberry</span><div style="height:4px;margin-top:10px;border-radius:2px;background:linear-gradient(135deg,#D9425E,#E9A93F 50%,#7C4A86);"></div></div>
+        </div>
+
+        <sc-if value="{{ hasOpen }}">
+          <div style="margin-top:14px;border:1px solid rgba(192,160,104,.45);background:linear-gradient(160deg,rgba(255,255,255,.03),rgba(0,0,0,.22));padding:32px;display:grid;grid-template-columns:180px 1fr 40px;gap:36px;align-items:start;animation:lotIn .4s ease-out;">
+            <div>
+              <div style="width:100%;aspect-ratio:1/1;border-radius:4px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12);background:{{ openColorCss }};"></div>
+              <div style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#9fa393;margin-top:14px;">Attributed colour</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:19px;color:#efe9db;margin-top:3px;">{{ openColorName }}</div>
+            </div>
+            <div>
+              <div style="font-size:11px;letter-spacing:.18em;color:#b89660;">{{ openCode }} &nbsp;·&nbsp; {{ openInternal }} &nbsp;·&nbsp; {{ openProcess }}</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:40px;line-height:1;margin-top:8px;color:#f2ecdf;">{{ openName }}</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:21px;color:#c0a068;margin-top:8px;">{{ openProfile }}</div>
+              <p style="font-size:16px;line-height:1.7;margin-top:16px;max-width:640px;color:#d7d2c4;">{{ openNotes }}</p>
+            </div>
+            <button onClick="{{ close }}" aria-label="Close" style="background:none;border:1px solid rgba(233,227,212,.3);color:#e9e3d4;width:40px;height:40px;cursor:pointer;font-size:15px;line-height:1;">✕</button>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TASTE THE VINTAGE FIRST ===== -->
+  <section style="display:grid;grid-template-columns:1fr 1fr;background:#101d16;">
+    <div style="position:relative;min-height:520px;">
+      <image-slot id="cherries" shape="rect" fit="cover" src="./assets/cherries.jpg" placeholder="Coffee cherry on the branch"></image-slot>
+    </div>
+    <div style="background:#efe9db;color:#2b2a22;padding:76px 64px;display:flex;flex-direction:column;justify-content:center;">
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:48px;line-height:1.03;">Taste the<br>vintage first.</h2>
+      <p style="font-size:16px;line-height:1.6;margin-top:26px;max-width:480px;color:#4c483d;">All fourteen lots, in one box, before any of them are sold. Cup the washed against the natural, find the lot worth bidding on, and pour it for the people you want in the room when you do.</p>
+      <p style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;line-height:2;margin-top:30px;max-width:460px;color:#755d3c;font-variant-numeric:tabular-nums;">[NUMBER] sets. [WEIGHT] of each lot. [PRICE], shipped from Panama. Released once, and allocated in the order the waitlist is joined.</p>
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;margin-top:24px;color:#2b2a22;">The 2025 set sold out.</p>
+      <a href="#waitlist" style="display:inline-flex;align-items:center;gap:12px;margin-top:28px;font-size:11px;letter-spacing:.22em;color:#2b2a22;border-bottom:1px solid #2b2a22;padding-bottom:6px;width:max-content;">JOIN THE WAITLIST <span>→</span></a>
+    </div>
+  </section>
+
+  <!-- ===== SPIRIT OF LONGBOARD ===== -->
+  <section style="background:#101d16;color:#e9e3d4;padding:90px 64px;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;">
+      <div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:40px;line-height:1.05;">The Spirit of Longboard</h2>
+        <p style="font-size:15.5px;line-height:1.65;margin-top:24px;max-width:420px;color:#c3c0b2;">Distilled from Misty Mountain Geisha itself, the Spirit of Longboard is presented each year to the bidder who places the highest single bid across the auction.</p>
+        <p style="font-size:15.5px;line-height:1.65;margin-top:18px;max-width:420px;color:#c3c0b2;">One bottle. One recipient. A gesture toward the philosophy that produced the vintage — that what emerges from wild fermentation may become something more than coffee.</p>
+      </div>
+      <div style="padding:12px;border:1px solid #755d3c;">
+        <div style="position:relative;height:360px;">
+          <image-slot id="spirit-bottle" shape="rect" fit="cover" src="./assets/spirit.jpg" placeholder="Spirit of Longboard bottle"></image-slot>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== THE AUCTION ===== -->
+  <section style="background:#efe9db;color:#2b2a22;padding:90px 64px;">
+    <div style="max-width:1320px;margin:0 auto;">
+      <div style="display:grid;grid-template-columns:320px 1fr 1fr 1fr;gap:48px;align-items:start;">
+        <div>
+          <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:40px;line-height:1;">The auction</h2>
+          <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px;margin-top:6px;color:#755d3c;">Thursday 8 October 2026</p>
+        </div>
+        <div style="padding-top:8px;"><div style="font-size:10px;letter-spacing:.2em;color:#9a917c;">FORMAT</div><p style="font-size:15px;line-height:1.6;margin-top:14px;color:#4c483d;">Two phases. Silent bidding through the opening window, then a three-minute countdown that resets with every new bid. Fourteen lots, sold in sequence.</p></div>
+        <div style="padding-top:8px;"><div style="font-size:10px;letter-spacing:.2em;color:#9a917c;">REGISTERING TO BID</div><p style="font-size:15px;line-height:1.6;margin-top:14px;color:#4c483d;">Bidding is through M-Cultivo, which handles accounts and approval. Approval is manual and can take up to 48 hours — register in the weeks before the auction, not on the day.</p></div>
+        <div style="padding-top:8px;"><div style="font-size:10px;letter-spacing:.2em;color:#9a917c;">TERMS</div><p style="font-size:15px;line-height:1.6;margin-top:14px;color:#4c483d;">Lots are sold FOB Panama. Importation is arranged by the buyer, and payment is due within 30 days of the auction closing.</p></div>
+      </div>
+
+      <div style="margin-top:64px;padding-top:36px;border-top:1px solid #d8d2c7;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:14px;">
+          <span style="font-size:10px;letter-spacing:.2em;color:#9a917c;">START TIME WORLDWIDE</span>
+          <a href="#calendar" style="font-size:11px;letter-spacing:.14em;color:#3a5a5d;border-bottom:1px solid #3a5a5d;padding-bottom:4px;">ADD TO CALENDAR →</a>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(9,1fr);gap:18px;margin-top:26px;">
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">Panama</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">London</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">Dubai</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">Bangkok</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">Kuala Lumpur</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">Beijing</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">Taipei</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">Seoul</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+          <div><div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#2b2a22;">Tokyo</div><div style="font-size:11px;line-height:1.4;margin-top:6px;color:#755d3c;">[TIME TO BE CONFIRMED]</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CLOSING CTA ===== -->
+  <section id="waitlist" style="position:relative;min-height:460px;overflow:hidden;background:#0c1611;">
+    <div style="position:absolute;inset:0;">
+      <image-slot id="footer-forest" shape="rect" fit="cover" placeholder="Forest · dark canopy"></image-slot>
+    </div>
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,13,9,.84) 0%,rgba(8,13,9,.6) 45%,rgba(8,13,9,.78) 100%);pointer-events:none;"></div>
+    <div style="position:relative;padding:80px 64px;min-height:460px;display:flex;flex-direction:column;justify-content:center;">
+      <div style="max-width:560px;">
+        <div style="font-size:11px;letter-spacing:.22em;color:#c0a068;">SETS ARE RELEASED ONCE</div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:52px;line-height:1.0;margin-top:16px;color:#efe9db;">Be first to<br>the fourteen.</h2>
+        <p style="font-size:15px;line-height:1.6;margin-top:18px;max-width:440px;color:#d7d2c4;">Join the waitlist and you will hear about the release, and about each lot, before it is public.</p>
+
+        <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+          <form onSubmit="{{ submit }}" style="display:flex;align-items:flex-end;gap:24px;margin-top:36px;flex-wrap:wrap;">
+            <input type="email" required placeholder="Your email address" style="background:transparent;border:none;border-bottom:1px solid rgba(233,227,212,.4);color:#e9e3d4;font-family:'EB Garamond',serif;font-size:15px;padding:8px 0;width:280px;outline:none;" />
+            <button type="submit" style="background:#b89660;color:#0c1611;border:none;font-size:11px;letter-spacing:.18em;padding:14px 24px;cursor:pointer;font-family:'EB Garamond',serif;">JOIN THE WAITLIST</button>
+          </form>
+        </sc-if>
+        <sc-if value="{{ submitted }}">
+          <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px;margin-top:36px;color:#efe9db;">Thank you. The forest will be in touch.</p>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background:#0c1611;color:#9fa393;padding:38px 64px;border-top:1px solid rgba(117,93,60,.35);">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:12px;">
+      <span>Longboard · Misty Mountain, Boquete, Panama · 2026</span>
+      <div style="display:flex;gap:28px;">
+        <a href="#instagram">Instagram</a>
+        <a href="#contact">Contact</a>
+        <a href="#terms">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const LOTS = {
+  LAW1:{internal:"MMGW11",name:"Wild Garden",process:"Washed",profile:"White florals & stone fruit",notes:"Jasmine, orange blossom, and magnolia unfold over ripe peach and apricot, rounded by a whisper of bergamot and rose tea. Silky, mellow texture.",colorName:"Peach & White",css:"linear-gradient(135deg,#F4C4A0,#FBF3E8)"},
+  LAW2:{internal:"MMGW12A",name:"Vertige",process:"Washed",profile:"Honeysuckle & pomelo",notes:"An intense, layered florality — jasmine, honeysuckle, and bergamot — lifted by pomelo and a bright, phosphoric sparkle reminiscent of kumquat. Crystalline acidity.",colorName:"Yellow & Green",css:"linear-gradient(135deg,#E4C64C,#8FA84E)"},
+  LAW3:{internal:"MMGW14",name:"Cerise",process:"Washed",profile:"Strawberry & rose",notes:"Strawberry and red berries wrapped in rose, magnolia, and hibiscus, finishing on a note of white wine. Elegant, silky body.",colorName:"Pink",css:"#E39AB0"},
+  LAW4:{internal:"MMGW17",name:"Mystic",process:"Washed",profile:"Jasmine, honeysuckle & lemongrass",notes:"A defining lot: jasmine, orange blossom, and honeysuckle over mandarin and lemongrass, with violet and raspberry beneath. Velvety, balanced, long tea finish.",colorName:"White & Yellow",css:"linear-gradient(135deg,#FBF3E0,#EBC65A)"},
+  LAW5:{internal:"WRGW6",name:"Symphony",process:"Washed",profile:"Orange blossom & strawberry",notes:"Orange blossom and strawberry meet a caramelized sweetness, with juicy stone fruit and a lingering citrus finish. Full, complex body.",colorName:"Pink & Yellow",css:"linear-gradient(135deg,#E7A2B0,#E9C866)"},
+  LAW6:{internal:"MMGW19",name:"Qw",process:"Washed",profile:"Cherry blossom & pomegranate",notes:"Cranberry and pomegranate lead into cherry and coffee blossom, with an exotic mangosteen note and layered, textured finish.",colorName:"Magenta",css:"#B23A76"},
+  LAW7:{internal:"MMGWPB (Peaberry)",name:"Alchimie",process:"Washed · Peaberry",profile:"Violet & lavender",notes:"A dense, concentrated cup: violet, lavender, and black currant, deepened by rosehip, honey, and a cognac-like richness. Complex, dried-flower finish.",colorName:"Lavender",css:"#A99BCB"},
+  LAN1:{internal:"MMGN13A",name:"Clair Obscur",process:"Natural",profile:"Blood orange & white muscat",notes:"Jasmine and white muscat grape open into blood orange and strawberry, with hibiscus and a champagne-like sparkle — the cup itself shifting through red, yellow, and purple as it cools. Winey character, yellow florals.",colorName:"Sunset Red-Orange Gradient",css:"linear-gradient(135deg,#C23B2E,#E8863A 55%,#E9C15A)"},
+  LAN2:{internal:"MMGN13B",name:"Ruby Red",process:"Natural",profile:"Peach & raspberry",notes:"Bright stone fruit — peach and loquat — layered with raspberry and pomegranate over a citrus-forward, lemon-candy sweetness.",colorName:"Raspberry",css:"#A62A4D"},
+  LAN3:{internal:"WRGN5",name:"Zenith",process:"Natural",profile:"Blackcurrant & blueberry",notes:"The collection's most expressive natural: blueberry, cherry, and plum over blackcurrant and violet, with blood orange, strawberry, and a perfumed, honeyed finish.",colorName:"Dark Purple & Red",css:"linear-gradient(135deg,#4B2247,#8E2436)"},
+  LAN4:{internal:"WRGN7",name:"Halo",process:"Natural",profile:"Passionfruit & mandarin",notes:"Muscat and raspberry give way to mandarin, peach, and jasmine, rounded by orange blossom, baked pineapple, and a lingering, structured finish.",colorName:"Yellow & Orange",css:"linear-gradient(135deg,#E8C24E,#E08636)"},
+  LAN5:{internal:"WRGN8",name:"Tropical Hibiscus",process:"Natural",profile:"Raspberry & mango",notes:"Raspberry and blackberry meet hibiscus and dried flowers, with ripe yellow mango and banana adding a tropical, fruit-forward sweetness.",colorName:"Hibiscus & Tropical Twist",css:"linear-gradient(135deg,#C43A6D,#E88A3C)"},
+  LAN6:{internal:"MMGN18",name:"Qn",process:"Natural",profile:"Apricot & lilac",notes:"Peach and lilac open into apricot and orange wine, with lemongrass, toasted oak, and maple syrup adding depth. Silky, mineral finish.",colorName:"Maple Syrup & Fig",css:"linear-gradient(135deg,#B5762F,#5A3550)"},
+  LAN7:{internal:"MMGNPB (Peaberry)",name:"Reverie",process:"Natural · Peaberry",profile:"Honeysuckle & peach",notes:"An intensely concentrated cup: date, honeysuckle, and peach meet caramel and pink guava, finishing on jasmine and a candied fruit sweetness.",colorName:"Tutti Frutti",css:"linear-gradient(135deg,#D9425E,#E9A93F 50%,#7C4A86)"}
+};
+
+class Component extends DCLogic {
+  state = { submitted: false, open: null };
+  pick(code, e) {
+    const tile = e && e.currentTarget;
+    const next = this.state.open === code ? null : code;
+    this.setState({ open: next });
+    if (tile && tile.parentElement) {
+      Array.from(tile.parentElement.children).forEach(c => { c.style.borderColor = 'rgba(192,160,104,.28)'; });
+      if (next) tile.style.borderColor = '#c0a068';
+    }
+  }
+  renderVals() {
+    const o = this.state.open ? LOTS[this.state.open] : null;
+    const codes = Object.keys(LOTS);
+    const handlers = {};
+    codes.forEach(code => { handlers['c' + code] = (e) => this.pick(code, e); });
+    return {
+      ...handlers,
+      submitted: this.state.submitted,
+      notSubmitted: !this.state.submitted,
+      submit: (e) => { if (e && e.preventDefault) e.preventDefault(); this.setState({ submitted: true }); },
+      hasOpen: !!o,
+      openCode: this.state.open || '',
+      openInternal: o ? o.internal : '',
+      openName: o ? o.name : '',
+      openProcess: o ? o.process : '',
+      openProfile: o ? o.profile : '',
+      openNotes: o ? o.notes : '',
+      openColorName: o ? o.colorName : '',
+      openColorCss: o ? o.css : 'transparent',
+      close: () => this.setState({ open: null })
+    };
+  }
+}
+</script>
+</body>
+</html>

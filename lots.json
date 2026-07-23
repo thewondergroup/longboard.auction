@@ -1,0 +1,114 @@
+[
+  {
+    "code": "LAW1",
+    "internal": "MMGW11",
+    "name": "Wild Garden",
+    "profile": "White florals & stone fruit",
+    "notes": "Jasmine, orange blossom, and magnolia unfold over ripe peach and apricot, rounded by a whisper of bergamot and rose tea. Silky, mellow texture.",
+    "color": "Peach & White"
+  },
+  {
+    "code": "LAW2",
+    "internal": "MMGW12A",
+    "name": "Vertige",
+    "profile": "Honeysuckle & pomelo",
+    "notes": "An intense, layered florality — jasmine, honeysuckle, and bergamot — lifted by pomelo and a bright, phosphoric sparkle reminiscent of kumquat. Crystalline acidity.",
+    "color": "Yellow & Green"
+  },
+  {
+    "code": "LAW3",
+    "internal": "MMGW14",
+    "name": "Cerise",
+    "profile": "Strawberry & rose",
+    "notes": "Strawberry and red berries wrapped in rose, magnolia, and hibiscus, finishing on a note of white wine. Elegant, silky body.",
+    "color": "Pink"
+  },
+  {
+    "code": "LAW4",
+    "internal": "MMGW17",
+    "name": "Mystic",
+    "profile": "Jasmine, honeysuckle & lemongrass",
+    "notes": "A defining lot: jasmine, orange blossom, and honeysuckle over mandarin and lemongrass, with violet and raspberry beneath. Velvety, balanced, long tea finish.",
+    "color": "White & Yellow"
+  },
+  {
+    "code": "LAW5",
+    "internal": "WRGW6",
+    "name": "Symphony",
+    "profile": "Orange blossom & strawberry",
+    "notes": "Orange blossom and strawberry meet a caramelized sweetness, with juicy stone fruit and a lingering citrus finish. Full, complex body.",
+    "color": "Pink & Yellow"
+  },
+  {
+    "code": "LAW6",
+    "internal": "MMGW19",
+    "name": "Qw",
+    "profile": "Cherry blossom & pomegranate",
+    "notes": "Cranberry and pomegranate lead into cherry and coffee blossom, with an exotic mangosteen note and layered, textured finish.",
+    "color": "Magenta"
+  },
+  {
+    "code": "LAW7",
+    "internal": "MMGWPB (Peaberry)",
+    "name": "Alchimie",
+    "profile": "Violet & lavender",
+    "notes": "A dense, concentrated cup: violet, lavender, and black currant, deepened by rosehip, honey, and a cognac-like richness. Complex, dried-flower finish.",
+    "color": "Lavender"
+  },
+  {
+    "code": "LAN1",
+    "internal": "MMGN13A",
+    "name": "Clair Obscur",
+    "profile": "Blood orange & white muscat",
+    "notes": "Jasmine and white muscat grape open into blood orange and strawberry, with hibiscus and a champagne-like sparkle — the cup itself shifting through red, yellow, and purple as it cools. Winey character, yellow florals.",
+    "color": "Sunset Red-Orange Gradient"
+  },
+  {
+    "code": "LAN2",
+    "internal": "MMGN13B",
+    "name": "Ruby Red",
+    "profile": "Peach & raspberry",
+    "notes": "Bright stone fruit — peach and loquat — layered with raspberry and pomegranate over a citrus-forward, lemon-candy sweetness.",
+    "color": "Raspberry"
+  },
+  {
+    "code": "LAN3",
+    "internal": "WRGN5",
+    "name": "Zenith",
+    "profile": "Blackcurrant & blueberry",
+    "notes": "The collection's most expressive natural: blueberry, cherry, and plum over blackcurrant and violet, with blood orange, strawberry, and a perfumed, honeyed finish.",
+    "color": "Dark Purple & Red"
+  },
+  {
+    "code": "LAN4",
+    "internal": "WRGN7",
+    "name": "Halo",
+    "profile": "Passionfruit & mandarin",
+    "notes": "Muscat and raspberry give way to mandarin, peach, and jasmine, rounded by orange blossom, baked pineapple, and a lingering, structured finish.",
+    "color": "Yellow & Orange"
+  },
+  {
+    "code": "LAN5",
+    "internal": "WRGN8",
+    "name": "Tropical Hibiscus",
+    "profile": "Raspberry & mango",
+    "notes": "Raspberry and blackberry meet hibiscus and dried flowers, with ripe yellow mango and banana adding a tropical, fruit-forward sweetness.",
+    "color": "Hibiscus & Tropical Twist"
+  },
+  {
+    "code": "LAN6",
+    "internal": "MMGN18",
+    "name": "Qn",
+    "profile": "Apricot & lilac",
+    "notes": "Peach and lilac open into apricot and orange wine, with lemongrass, toasted oak, and maple syrup adding depth. Silky, mineral finish.",
+    "color": "Maple Syrup & Fig"
+  },
+  {
+    "code": "LAN7",
+    "internal": "MMGNPB (Peaberry)",
+    "name": "Reverie",
+    "profile": "Honeysuckle & peach",
+    "notes": "An intensely concentrated cup: date, honeysuckle, and peach meet caramel and pink guava, finishing on jasmine and a candied fruit sweetness.",
+    "color": "Tutti Frutti"
+  }
+]
